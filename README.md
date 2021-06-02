@@ -2,8 +2,7 @@
 
 ## API ENDPOINTS
 
-APIs
-
+```
 /GET get_parking_lot_details/<parking_lot_id>
 Parking Lot Details
 
@@ -16,8 +15,9 @@ Request Params:
     "pincode",
     "operating_company"
 }
+```
 
-
+```
 /POST create_rate_card
 Request Params
 {
@@ -25,7 +25,9 @@ Request Params
     "vehicle_type",
     "hourly_cost"
 }
+```
 
+```
 Success
 /POST park_vehicle  
 Request Params
@@ -34,7 +36,9 @@ Request Params
     "vehicle_type"
     "pricing_type"
 }
+```
 
+```
 Failure Behaviour
 /POST park_vehicle
 {
@@ -42,11 +46,13 @@ Failure Behaviour
     "vehicle_type"
     "pricing_type"
 }
+```
 
-
+```
 /GET get_parked_vehicle_details?vehicle_id
 # Return the amount due for the duration that vehicle is parked
-
-
+```
+```
 /GET get_parked_vehicle_history
 see complete parking history across all lots
+```
